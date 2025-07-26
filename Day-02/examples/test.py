@@ -6,10 +6,13 @@ arn = "arn:aws:iam::123456789012:user/test"
 
 #print(length)
 
-type = arn.type()
-print(type)
+##type = arn.type()
 
+uppercase = arn.upper()
+lowercase = arn.lower()
 
+print(uppercase)
+print(lowercase)
 
 
 
